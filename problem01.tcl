@@ -11,7 +11,7 @@ foreach num $numberList {
 }
 set avg [expr $sum / $listLength];
 foreach num $numberList {
-	set sqError [expr [expr $num - $avg] ** 2]; 
+	set sqError [expr $sqError + [expr [expr $num - $avg] ** 2]]; 
 }
 puts "Sum of list : $sum";
 
@@ -20,4 +20,4 @@ puts "Average: $avg";
 
 puts "Square mean: [expr $sqSum / $listLength]";
 
-puts "Standard Dev: [expr sqrt([expr $sqError / [expr $listLength - 1]])]";
+puts "Standard Dev: [expr sqrt([expr $sqError / $listLength])]";
