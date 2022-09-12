@@ -1,2 +1,0 @@
-value 10 20 30 40 50
-variable_name Test_Moana Test_Maui Test_Elsa Test_Anna Test_Cindrella
