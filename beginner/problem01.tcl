@@ -1,3 +1,4 @@
+#! /usr/bin/tclsh
 puts "Enter a List of number:";
 gets stdin numberList;
 set listLength [llength $numberList];
@@ -18,6 +19,7 @@ puts "Sum of list : $sum";
 #set avg [expr $sum / $listLength];
 puts "Average: $avg";
 
-puts "Square mean: [expr $sqSum / $listLength]";
+#puts "Square mean: [expr $sqSum / $listLength]";
 
-puts "Standard Dev: [expr sqrt([expr $sqError / $listLength])]";
+puts "sqrt = [expr sqrt([lindex $numberList [expr $listLength - 1]])]";
+puts "Standard Dev: [expr sqrt([expr $sqError / [expr $listLength - 1]])]";
