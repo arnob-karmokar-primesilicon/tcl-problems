@@ -11,7 +11,7 @@ while {[gets $fp line]>=0} {
 		regexp -nocase -indices "summer" $word matched; 
 		if {[info exists matched]==1} {
 			incr count;
-			set updatedLine [lreplace $updatedLine $index $index "winter"];
+			set updatedLine [lreplace $updatedLine $index $index [string replace $word 0 5 "winter"]];
 			unset matched;
 		}
 		incr index;
