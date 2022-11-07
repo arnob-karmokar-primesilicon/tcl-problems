@@ -1,0 +1,65 @@
+Was the summer of sixty-nine
+Replaced String: Was the summer of replace
+Reversed String: enin-ytxis fo remmus eht saW
+My vowels: aeueoiie
+Number of vowels: 8
+Number of unique vowels: 5
+Position of "a" in my string: 1
+Position of "e" in my string: 6 12 27
+Position of "i" in my string: 19 25
+Position of "o" in my string: 15
+Position of "u" in my string: 9
+That summer seemed to last forever
+Replaced String: That summer seemed to last replace
+Reversed String: reverof tsal ot demees remmus tahT
+My vowels: aueeeeoaoee
+Number of vowels: 11
+Number of unique vowels: 4
+Position of "a" in my string: 2 23
+Position of "e" in my string: 9 13 14 16 30 32
+Position of "o" in my string: 20 28
+Position of "u" in my string: 6
+Back in the summer of sixty-nine, oh
+Replaced String: Back in the summer of sixty-nine, replace
+Reversed String: ho ,enin-ytxis fo remmus eht ni kcaB
+My vowels: aieueoiieo
+Number of vowels: 10
+Number of unique vowels: 5
+Position of "a" in my string: 1
+Position of "e" in my string: 10 16 31
+Position of "i" in my string: 5 23 29
+Position of "o" in my string: 19 34
+Position of "u" in my string: 13
+Back in the summer of sixty-nine, oh
+Replaced String: Back in the summer of sixty-nine, replace
+Reversed String: ho ,enin-ytxis fo remmus eht ni kcaB
+My vowels: aieueoiieo
+Number of vowels: 10
+Number of unique vowels: 5
+Position of "a" in my string: 1
+Position of "e" in my string: 10 16 31
+Position of "i" in my string: 5 23 29
+Position of "o" in my string: 19 34
+Position of "u" in my string: 13
+It was the summer of sixty-nine, oh, yeah
+Replaced String: It was the summer of sixty-nine, oh, replace
+Reversed String: haey ,ho ,enin-ytxis fo remmus eht saw tI
+My vowels: Iaeueoiieoea
+Number of vowels: 12
+Number of unique vowels: 5
+Position of "a" in my string: 4 39
+Position of "e" in my string: 9 15 30 38
+Position of "i" in my string: 22 28
+Position of "o" in my string: 18 33
+Position of "u" in my string: 12
+It was the summer, the summer, the summer of sixty-nine, yeah
+Replaced String: It was the summer, the summer, the summer of sixty-nine, replace
+Reversed String: haey ,enin-ytxis fo remmus eht ,remmus eht ,remmus eht saw tI
+My vowels: Iaeueeueeueoiieea
+Number of vowels: 17
+Number of unique vowels: 5
+Position of "a" in my string: 4 59
+Position of "e" in my string: 9 15 21 27 33 39 54 58
+Position of "i" in my string: 46 52
+Position of "o" in my string: 42
+Position of "u" in my string: 12 24 36
