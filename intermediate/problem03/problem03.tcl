@@ -1,3 +1,9 @@
+# Path Group Splitter
+# Author: Arnob Karmokar
+# Email: contact@arnob.me
+# Version: 1.0
+# Last Modified: 8 Nov 2022
+
 set START_TIME [clock clicks -milliseconds]
 set f [open "timing.lifcc.rpt" r]
 set folderName "path_group"
