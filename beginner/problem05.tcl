@@ -41,11 +41,14 @@ if {$o == 1} {
 } elseif {$o == 3} {
 	puts "Please enter a number to check, prime or not: ";
 	gets stdin x;
+	set ST [clock clicks -milliseconds]
 	if {[isPrime $x] == 0} {
 		puts "Given number '$x' is not a prime number.";
 	} else {
 		puts "Given number '$x' is a prime number.";
 	}
+	set ET [clock clicks -milliseconds]
+	puts "[expr $ET-$ST]ms"
 } else {
 	puts "Invalid Operation";
 }
