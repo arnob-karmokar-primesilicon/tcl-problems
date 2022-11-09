@@ -1,10 +1,10 @@
+# Std Cell timing report parsing
 # Author: Arnob Karmokar
 # Email: contact@arnob.me
 # Version: 1.0
 
 set f [open "all_timing_report.rpt" r]
 set o [open "output.csv" w]
-set lineNo 1
 while {[gets $f line]>=0} {
 	if {[regexp {/Y } $line] || [regexp {/ECK } $line] || [regexp {/Q } $line]} {
 		set stdCellName [string map {"(" "" ")" ""} [lindex $line 1]] 
@@ -26,7 +26,6 @@ while {[gets $f line]>=0} {
 			}
 		}
 	}
-	incr lineNo
 }
 #parray stdCell
 puts $o "Libcell,Min_Delay,Avg_Delay,Max_Delay"
