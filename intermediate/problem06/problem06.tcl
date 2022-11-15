@@ -1,7 +1,9 @@
-# Std Cell timing report parsing
+####################################################################
+# Title: Intermediate Problem 06 - Std Cell timing report parsing
 # Author: Arnob Karmokar
-# Email: contact@arnob.me
 # Version: 1.0
+# Date: 9 Nov 2022
+# #################################################################
 
 set f [open "all_timing_report.rpt" r]
 set o [open "output.csv" w]

@@ -49,7 +49,7 @@ Number of vowels: 12
 Number of unique vowels: 5
 Position of "a" in my string: 4 39
 Position of "e" in my string: 9 15 30 38
-Position of "i" in my string: 22 28
+Position of "i" in my string: 0 22 28
 Position of "o" in my string: 18 33
 Position of "u" in my string: 12
 It was the summer, the summer, the summer of sixty-nine, yeah
@@ -60,6 +60,6 @@ Number of vowels: 17
 Number of unique vowels: 5
 Position of "a" in my string: 4 59
 Position of "e" in my string: 9 15 21 27 33 39 54 58
-Position of "i" in my string: 46 52
+Position of "i" in my string: 0 46 52
 Position of "o" in my string: 42
 Position of "u" in my string: 12 24 36

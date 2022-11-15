@@ -1,3 +1,10 @@
+#######################################
+# Title: Intermediate Problem 04 - Prime and Composite Numbers
+# Author: Arnob Karmokar
+# Version: 1.0
+# Date: 7 Nov 2022
+#######################################
+
 proc isPrime {n} {
 	if {$n==0 || $n==1} {
 		return 0

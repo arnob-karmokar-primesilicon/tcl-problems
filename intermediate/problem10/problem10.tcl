@@ -1,7 +1,7 @@
 ###################################################
-# Title: Buffer Remover
+# Title: Intermediate Problem 10 - Delay Buffer Remover
 # Author: Arnob Karmokar
-# Version: 1
+# Version: 1.0
 # Date: 14 Nov 2022
 ###################################################
 source "subset.tcl"

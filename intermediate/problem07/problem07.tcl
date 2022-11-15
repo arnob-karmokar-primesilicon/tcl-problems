@@ -1,3 +1,10 @@
+#######################################
+# Title: Intermediate Problem 07 - Extract employee information from file
+# Author: Arnob Karmokar
+# Version: 1.0
+# Date: 7 Nov 2022
+#######################################
+
 puts "Input File Name"
 gets stdin fileName
 puts "Input Info"

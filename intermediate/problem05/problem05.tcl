@@ -1,3 +1,9 @@
+#######################################
+# Title: Intermediate Problem 05 - Transition timing of Pins
+# Author: Arnob Karmokar
+# Version: 1.0
+# Date: 8 Nov 2022
+#######################################
 set inputFiles [glob -path "data" *]
 set o [open "output.csv" w]
 puts $o "Filename,Pin,Direction,Max rise time,Max fall time,Worst Transition,Limit,Slack"

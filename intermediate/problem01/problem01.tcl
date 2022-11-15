@@ -1,3 +1,9 @@
+#######################################
+# Title: Intermediate Problem 01 - File Manipulation
+# Author: Arnob Karmokar
+# Version: 1.0
+# Date: 7 Nov 2022
+#######################################
 set f [open "text.txt" r]
 set o [open "output.txt" w]
 set vowels {a e i o u}
@@ -16,12 +22,12 @@ while {[gets $f line]>0} {
 				}
 			}
 			puts $o "My vowels: [join $foundVowels ""]"
-			puts $o "Number of vowels: [llength $foundVowels`]"
+			puts $o "Number of vowels: [llength $foundVowels]"
 			set uniqueVowels [lsort -u -nocase $foundVowels]
 			puts $o "Number of unique vowels: [llength $uniqueVowels]"
 			# Print position of each vowels
 			foreach char $uniqueVowels {
-				puts $o "Position of \"$char\" in my string: [lsearch -all $line $char]"
+				puts $o "Position of \"$char\" in my string: [lsearch -all -nocase $line $char]"
 				#puts $o $char
 			}
 			unset matched
