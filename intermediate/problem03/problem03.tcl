@@ -1,7 +1,7 @@
 ############################################################
 # Title: Intermediate Problem 03 - Path Group Splitter
 # Author: Arnob Karmokar
-# Version: 1.0
+# Version: 1.1
 # Date: 8 Nov 2022
 ############################################################
 
@@ -23,7 +23,7 @@ while {[gets $f line]>=0} {
 	}
 	if {[regexp "Path Group" $line]} {
 		set extracted [split $line ":"]
-		set pathGroupName [lindex $extracted end]
+		set pathGroupName [string map {" " "" "*" ""} [lindex $extracted end]]
 		lappend pathGroups $pathGroupName
 	}
 	if {[regexp {slack \(with no derating\) \(VIOLATED\)} $line]} {
