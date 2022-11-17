@@ -56,7 +56,6 @@ data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/PO_AINV_P_381254/A,in,0.280876,0.170348,0.280876,0.200000,0.080876
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/tdr_latch85_reg/SI,in,0.280876,0.170348,0.280876,0.200000,0.080876
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/tdr_latch83_reg/SI,in,0.280876,0.170348,0.280876,0.200000,0.080876
-data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pma/ATBSP,inout,0.275168,0.275168,0.275168,0.200000,0.07516800000000001
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/PO_AINV_P_381237/A,in,0.269974,0.189278,0.269974,0.200000,0.06997399999999998
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/PO_AINV_P_381235/A,in,0.269974,0.189278,0.269974,0.200000,0.06997399999999998
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/PO_AINV_P_381236/A,in,0.269974,0.189278,0.269974,0.200000,0.06997399999999998
@@ -64,7 +63,6 @@ data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/PO_AINV_P_381224/A,in,0.269974,0.189278,0.269974,0.200000,0.06997399999999998
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/PO_AINV_P_381216/A,in,0.269974,0.189278,0.269974,0.200000,0.06997399999999998
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/PO_AINV_P_381251/Y,out,0.269974,0.189278,0.269974,0.200000,0.06997399999999998
-data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pma/ATBSN,inout,0.262366,0.262366,0.262366,0.200000,0.06236599999999998
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,esi_dft_occ_wrap_SERDES_scan_clk_pll2ref_i/pll_clk_ATibuf_i101/A,in,0.260296,0.259752,0.260296,0.200000,0.060296000000000016
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/sbphys2a1s14lpp28g4l1c_phy_u0/i_dpl/i_dpl_core/genblk1_6__i_sync_tbus_data/z_r_reg/D,in,0.252051,0.186748,0.252051,0.200000,0.052051000000000014
 data_trans2.lifcc.SC.SigCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/PO_AINV_P_381252/Y,out,0.249941,0.150607,0.249941,0.200000,0.049940999999999985
@@ -130,9 +128,7 @@ data_trans2.lifcc.SC.SigRCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt
 data_trans2.lifcc.SC.SigRCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/sbphys2a1s14lpp28g4l1c_phy_u0/BLOCK_BUFFER_IN_CLK_19/A,in,0.342517,0.342704,0.342704,0.200000,0.142704
 data_trans2.lifcc.SC.SigRCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/sbphys2a1s14lpp28g4l1c_phy_u0/i_dpl/RO_ropt_d_inst_322391/Y,out,0.324798,0.195510,0.324798,0.200000,0.12479799999999996
 data_trans2.lifcc.SC.SigRCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/sbphys2a1s14lpp28g4l1c_phy_u0/i_dpl/RO_ropt_d_inst_322352/Y,out,0.318844,0.199966,0.318844,0.200000,0.118844
-data_trans2.lifcc.SC.SigRCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pma/ATBSP,inout,0.312715,0.312715,0.312715,0.200000,0.11271500000000001
 data_trans2.lifcc.SC.SigRCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pcs_lane1_wrapper/u_pcs_pcie_core/i_pcs_pcie_lane_control0/RO_ropt_mt_inst_447082/A,in,0.309982,0.312060,0.31206,0.200000,0.11205999999999999
-data_trans2.lifcc.SC.SigRCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pma/ATBSN,inout,0.294830,0.294830,0.29483,0.200000,0.09482999999999997
 data_trans2.lifcc.SC.SigRCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/tdr_reg_89_/SI,in,0.265019,0.160714,0.265019,0.200000,0.065019
 data_trans2.lifcc.SC.SigRCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/tdr_reg_88_/SI,in,0.265019,0.160714,0.265019,0.200000,0.065019
 data_trans2.lifcc.SC.SigRCmaxDP_ErPlus_modRvia_m40c.setup.func.noxtalk.noocv.rpt,lifcc_gate_tessent_tdr_MEM_PROGRAMMABLE_BITs_inst/tdr_reg_87_/SI,in,0.265019,0.160714,0.265019,0.200000,0.065019
@@ -212,8 +208,6 @@ data_trans2.lifcc.SH.SigCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,
 data_trans2.lifcc.SH.SigCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/sbphys2a1s14lpp28g4l1c_phy_u0/BLOCK_BUFFER_IN_CLK_19/A,in,0.462885,0.461859,0.462885,0.200000,0.262885
 data_trans2.lifcc.SH.SigCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/serdes_s4_crm_lifc_u0/U11/A0,in,0.429911,0.428900,0.429911,0.200000,0.22991099999999998
 data_trans2.lifcc.SH.SigCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/serdes_s4_crm_lifc_u0/npe_synchronizer_u3/SDFFYRPQ2D_INST_3__SDFFYRPQ2D/D,in,0.429895,0.428890,0.429895,0.200000,0.22989500000000002
-data_trans2.lifcc.SH.SigCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pma/ATBSP,inout,0.428552,0.428552,0.428552,0.200000,0.22855199999999998
-data_trans2.lifcc.SH.SigCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pma/ATBSN,inout,0.399984,0.399984,0.399984,0.200000,0.199984
 data_trans2.lifcc.SH.SigCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,esi_dft_occ_wrap_SERDES_scan_clk_pll2ref_i/pll_clk_ATibuf_i101/A,in,0.343505,0.338700,0.343505,0.200000,0.143505
 data_trans2.lifcc.SH.SigCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/sbphys2a1s14lpp28g4l1c_phy_u0/i_dpl/RO_ropt_d_inst_322391/Y,out,0.338493,0.242891,0.338493,0.200000,0.13849299999999998
 data_trans2.lifcc.SH.SigCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pcs_lane1_wrapper/u_pcs_pcie_core/i_pcs_pcie_lane_control0/RO_ropt_mt_inst_447082/A,in,0.337280,0.337188,0.33728,0.200000,0.13728
@@ -396,9 +390,7 @@ data_trans2.lifcc.SH.SigRCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt
 data_trans2.lifcc.SH.SigRCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/serdes_s4_crm_lifc_u0/U11/A0,in,0.556197,0.553040,0.556197,0.200000,0.35619700000000004
 data_trans2.lifcc.SH.SigRCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/serdes_s4_crm_lifc_u0/npe_synchronizer_u3/SDFFYRPQ2D_INST_3__SDFFYRPQ2D/D,in,0.556085,0.552964,0.556085,0.200000,0.35608500000000004
 data_trans2.lifcc.SH.SigRCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/sbphys2a1s14lpp28g4l1c_phy_u0/BLOCK_BUFFER_IN_CLK_19/A,in,0.526802,0.524124,0.526802,0.200000,0.326802
-data_trans2.lifcc.SH.SigRCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pma/ATBSP,inout,0.511102,0.511102,0.511102,0.200000,0.31110199999999993
 data_trans2.lifcc.SH.SigRCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/sbphys2a1s14lpp28g4l1c_phy_u0/BLOCK_BUFFER_IN_CLK_22/A,in,0.503794,0.510232,0.510232,0.200000,0.310232
-data_trans2.lifcc.SH.SigRCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pma/ATBSN,inout,0.474906,0.474906,0.474906,0.200000,0.274906
 data_trans2.lifcc.SH.SigRCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,esi_dft_occ_wrap_SERDES_scan_clk_pll2ref_i/pll_clk_ATibuf_i101/A,in,0.469155,0.467204,0.469155,0.200000,0.269155
 data_trans2.lifcc.SH.SigRCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,cfg/cfg_pcie_top/pcie_wrapper_u0/u_pcs_lane1_wrapper/u_pcs_pcie_core/i_pcs_pcie_lane_control0/RO_ropt_mt_inst_447082/A,in,0.438289,0.436785,0.438289,0.200000,0.23828899999999997
 data_trans2.lifcc.SH.SigRCmaxDP_ErPlus_modRvia_125c.setup.func.noxtalk.noocv.rpt,serdes_s4_lifc_u0/serdes_s4_cfg_lifc_u0/U846/B,in,0.340395,0.342376,0.342376,0.200000,0.142376

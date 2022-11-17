@@ -1,7 +1,7 @@
 #######################################
 # Title: Intermediate Problem 05 - Transition timing of Pins
 # Author: Arnob Karmokar
-# Version: 1.0
+# Version: 1.1
 # Date: 8 Nov 2022
 #######################################
 set inputFiles [glob -path "data" *]
@@ -10,7 +10,7 @@ puts $o "Filename,Pin,Direction,Max rise time,Max fall time,Worst Transition,Lim
 foreach inputFile $inputFiles {
 	set f [open $inputFile r]
 	while {[gets $f line]>=0} {
-		if {[regexp {\*\* Pin :} $line]} {
+		if {[regexp {\*\* Pin :} $line] && ![regexp {inout} $line]} {
 			set pinName [lindex $line 3]
 			set timingData [split [string map {" " "" "(" "" ")" "" "R=" "" "F=" "" "Threshold=" "" "LibThreshold=" ""} [lrange $line 4 end]] ","]
 			#puts $timingData
