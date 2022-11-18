@@ -9,7 +9,7 @@ puts "Input File Name"
 gets stdin fileName
 puts "Input Info"
 gets stdin info
-
+set startTime [clock clicks -microseconds]
 set f [open $fileName r]
 set employeeNumber 0
 set op {}
@@ -28,3 +28,6 @@ while {[gets $f line]>=0} {
 }
 puts "number of employee: $employeeNumber"
 puts [join $op ""]
+set endTime [clock clicks -microseconds]
+
+puts "Runtime: [expr $endTime-$startTime] microseconds"
