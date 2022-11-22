@@ -8,7 +8,6 @@ source "subset.tcl"
 set tcl_precision 4
 set f [open "Input.txt" r]
 set o [open "output.txt" w]
-set b [open "buffers.txt" w]
 set flag 0
 set flag2 0
 while {[gets $f line]>=0} {
@@ -30,8 +29,8 @@ while {[gets $f line]>=0} {
 				lappend delays [lindex [lindex $buffers $item] 2]
 				set totalTime [expr [lindex [lindex $buffers $item] 2]+$totalTime]
 			}
-			set newSlack [expr abs($totalTime + $violationTime)]
-			if {$newSlack<=.1} {
+			set newSlack [expr $totalTime + $violationTime]
+			if {$newSlack >= 0 && $newSlack<=.1} {
 				puts $o "New slack = $newSlack; [join $delays " "]"
 				if {$newSlack < $bestSlackTime} {
 					set bestSlackTime $newSlack
@@ -39,11 +38,15 @@ while {[gets $f line]>=0} {
 				}
 			}
 		}
-		puts $o "\nBuffers to remove:"
-		foreach item $bestSlackSubset {
-			puts $o [lindex $buffers $item]
+		if {$bestSlackTime == 1000000} {
+			puts $o "Can't be corrected by buffer removal. The smallest buffer removal causes Hold Violation.\n"
+		} else {
+			puts $o "\nBuffers to remove:"
+			foreach item $bestSlackSubset {
+				puts $o [lindex $buffers $item]
+			}
+			puts $o "Resulting Slack is:\t\t$bestSlackTime\n\n"
 		}
-		puts $o "Resulting Slack is:\t\t$bestSlackTime\n\n"
 		set flag 0
 		set flag2 0
 		set buffers ""
