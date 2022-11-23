@@ -16,7 +16,6 @@ proc subset {n} {
 	set bit [expr int(log((2**$n)-1)/log(2) + 1)]
 	for {set i 0} {$i<2**$n} {incr i} {
 		set bin [dec2bin $i $bit]
-		puts "$i: $bin"
 		set idx 0
 		set ss {}
 		foreach item [lreverse $bin] {
