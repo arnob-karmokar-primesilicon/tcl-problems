@@ -1,9 +1,7 @@
 proc dec2bin {number bit} {
 	set bin ""
 	# Calculates minimum required bits for the given number
-	if {$number==0} {
-		set bit 1
-	} else {
+	if {$number!=0} {
 		set bit [expr [expr int(log($number)/log(2) + 1)]>$bit?[expr int(log($number)/log(2) + 1)]:$bit]
 	}
 	while {$number > 0 || $bit>[llength $bin]} {
@@ -15,9 +13,10 @@ proc dec2bin {number bit} {
 
 proc subset {n} {
 	set setList {}
-	set bit [expr int(log(($n**2)-1)/log(2) + 1)]
-	for {set i 0} {$i<$n**2} {incr i} {
+	set bit [expr int(log((2**$n)-1)/log(2) + 1)]
+	for {set i 0} {$i<2**$n} {incr i} {
 		set bin [dec2bin $i $bit]
+		puts "$i: $bin"
 		set idx 0
 		set ss {}
 		foreach item [lreverse $bin] {
@@ -32,4 +31,4 @@ proc subset {n} {
 	return $setList
 }
 
-#puts [subset 3]
+#puts [subset 5]
